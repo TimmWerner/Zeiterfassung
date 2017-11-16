@@ -26,5 +26,6 @@ Zum installieren:
 
 
 Nice to know:
-`$ docker rm <CONTAINER ID>` oder `$ docker rm <CONTAINER NAME>` //löscht container entgültig (muss gestoppt sein)
+`$ docker rm <CONTAINER ID>` oder `$ docker rm <CONTAINER NAME>` //löscht container entgültig (muss gestoppt sein)  
+  
 `$ docker rmi <IMAGE ID>` oder `$ docker rm <IMAGE NAME>` //löscht image entgültig
