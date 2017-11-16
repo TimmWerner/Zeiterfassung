@@ -1,1 +1,3 @@
-# SQL-Server Docker Zeiterfassung
+# SQL-Server Zeiterfassung
+
+Docker Container für SQL-Server

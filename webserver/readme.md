@@ -1,1 +1,3 @@
-# Webserver Docker Zeiterfassung
+# Webserver Zeiterfassung
+
+Docker Container für node.js Webserver
