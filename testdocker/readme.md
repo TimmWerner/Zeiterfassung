@@ -1,6 +1,6 @@
-`docker build -t friendlyhello .`
+`docker build -t <IMAGE NAME> .` //image name only lower case
 
-`docker run -p 4000:80 friendlyhello`
+`docker run -p 4000:80 <IMAGE NAME>`
 
 `docker ps` //running dockers
 
