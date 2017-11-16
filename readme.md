@@ -23,3 +23,8 @@ Zum installieren:
 7. Um ein neues image auf dem gleichen port zu starten muss zuerst der alte container gestoppt werden, da dieser sonst den Port blockiert:
    * `$ docker ps -a` //listet alle aktiven conatiner auf
    * `$ docker stop <CONTAINER ID>` oder `$ docker stop <CONTAINER NAME>`
+
+
+Nice to know:
+`$ docker rm <CONTAINER ID>` oder `$ docker rm <CONTAINER NAME>` //löscht container entgültig (muss gestoppt sein)
+`$ docker rmi <IMAGE ID>` oder `$ docker rm <IMAGE NAME>` //löscht image entgültig
