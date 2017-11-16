@@ -11,5 +11,6 @@ const app = express();
 
 app.use(express.static('src/app'));
 app.use('/img', express.static('src/img'));
+app.use('/angular', express.static('node_modules/angular'));
 
 app.listen(PORT, HOST);
