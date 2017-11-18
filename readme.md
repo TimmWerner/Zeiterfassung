@@ -31,3 +31,12 @@ Zum installieren:
 `$ docker rmi <IMAGE ID>` oder `$ docker rm <IMAGE NAME>` //löscht image entgültig  
   
 `$ docker stop $(docker ps -a -q); docker rm $(docker ps -a -q)` //stoppt und löscht alle container
+
+
+Von Timm die Datenbank betreffend:
+Name: mysql01
+Password: Altijon
+Datenbank wird mit
+winpty docker exec -it mysql01 mysql -uroot -p
+gestartet
+Habe alles mit diesem Tutorial gemacht https://www.techrepublic.com/article/how-to-deploy-and-use-a-mysql-docker-container/
