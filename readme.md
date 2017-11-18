@@ -1,4 +1,4 @@
-# Zeiterfassung
+﻿# Zeiterfassung
 
 Zum installieren:
 
@@ -16,7 +16,7 @@ Zum installieren:
 
 1. In der Bash in den webserver Ordner als Arbeitsverzeichnis wechseln.
 2. `$ docker build -t zeiterfassung_web .` //erzeugt ein image mit dem namen zeiterfassung_web
-3. `$ docker run 49160:8080 -d zeiterfassung_web` //startet das image
+3. `$ docker run -p 49160:8080 -d zeiterfassung_web:latest` //startet das image
 4. Nun läuft die Webpage auf http://localhost:49160/
 5. Es sei zu beachten, dass alle Pfade von src/app abhänig sind d.h. es wird die index.html automatisch geladen ([siehe hier](https://github.com/JonasSchade/Zeiterfassung/blob/master/webserver/server.js#L12))
 6. zusl. dazu verweißt der Pfad /img auf den eigentlich Pfad /src/img ([siehe hier](https://github.com/JonasSchade/Zeiterfassung/blob/master/webserver/server.js#L13))
